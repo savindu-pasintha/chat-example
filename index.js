@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/aa', (req, res) => {
-  res.send("savindu pasintha");
+  res.send("savindu pasintha-"+req.body);
 });
 
 
