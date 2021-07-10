@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/a', (req, res) => {
-  res.send("savindu pasintha);
+  res.send("savindu pasintha");
 });
 
 io.on('connection', (socket) => {
